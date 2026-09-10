@@ -68,7 +68,7 @@ def _print_human(result) -> None:
     if result.missing:
         print("  missing: " + ", ".join(result.missing))
     if result.empty:
-        print("  empty:   " + ", ".join(result.extra))
+        print("  empty:   " + ", ".join(result.empty))
     if result.extra:
         print("  extra:   " + ", ".join(result.extra))
 
